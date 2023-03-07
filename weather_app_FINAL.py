@@ -35,7 +35,7 @@ def clock():
     label1.config(text =h+ ":" + m + ":" + s)
     label1.after(1000,clock)
     
-canvas = Canvas(root,width = 800, height = 500)
+canvas = Canvas(root,width = 800, height = 500,highlightthickness = 0)
 label1 = Label(canvas, text = "", font=("Helvetica",20),fg = "green",bg = "lightblue")
 
 label1.pack(pady=20)
